@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BootCamp</title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <p class="para">Begin</p>
+    <hr/>
+    <div>
+        <p class="para">Search the site:</p>
+        <input type="text" id="name11" >
+        <button class="btn" onclick="search()">Search</button>
+    </div>
+    <hr/>
+    <h1 class="heading">Search visitors:</h1>
+    <ol>
+    <p class="para">Age:</p>
+        <input class="label" type="radio" id="name1" >less then 18
+        <input  class="label" type="radio" id="name2">18-50
+        <input  class="label" type="radio" id="name3">more then 50
+    </ol>
+    <div>
+    <p class="para">Additionally:</label>
+        <input class="label" type="text" id="name4" >
+        <input  class="label" type="text" id="name5">
+        <input  class="label" type="text" id="name6">
+    </div>
+    <button class="btn" onclick="search()">Search</button>
+    <script>
+        let serachElement = document.getElementById("name11")
+        let serachElement1 = document.getElementById("name4")
+        let serachElement2 = document.getElementById("name5")
+        let serachElement3 = document.getElementById("name6")
+
+        function search(){
+        let inputElement = serachElement.value
+        let inputElement1 = serachElement1.value
+        let inputElement2 = serachElement2.value
+        let inputElement3 = serachElement3.value
+        console.log(inputElement)
+        console.log(inputElement1)
+        console.log(inputElement2)
+        console.log(inputElement3)
+        }
+        let radioBtn = document.querySelectorAll("ol input")
+        console.log(radioBtn)
+    </script>
+    
+</html>

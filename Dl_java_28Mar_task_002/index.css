@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+}
+.background-container{
+    background-color: black;
+    background-size: cover;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+}
+.h-text{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto';
+}
+.h-text1{
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-text{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    
+}
+.card-text1{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    margin: 0px;  
+    
+}
+.p-text{
+    color: rgb(191, 199, 207);
+    font-size: 28px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    text-align: justify;
+}
+.header-center{
+    font-size: 30px; 
+    font-weight: 100;
+    font-family: 'Roboto';
+    list-style-type: none;
+}
+.header-center a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    color: rgb(191, 199, 207);
+}
+.btn{
+    background-color: yellow;
+    width: 190px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    padding: 10px;
+    cursor: pointer;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.card-container{
+    display: flex;
+    margin-top: 60px;
+    
+    
+}
+.card{
+   margin-left: 70px;
+}
+.card-paragrap{
+    background-color:rgb(90, 88, 88);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+}
+.card-paragraph1{
+    padding-left: 70px;
+}
+.card-paragrap-black{
+    background-color:black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+}
+.icon{
+    background-color: aliceblue;
+    margin: 10px;
+    margin-top: 10px;
+    width: 30px;
+    justify-content: center;
+    border-radius: 25px;
+}
+.card-paragrap2{
+    background-color:rgb(90, 88, 88);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}

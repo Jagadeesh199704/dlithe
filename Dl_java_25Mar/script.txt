@@ -1,0 +1,21 @@
+//objecta in JS
+let person = {
+    firstName: "Rahul",
+    lastName: "A",
+    age: 28,
+  };
+  
+  console.log(person);
+  //short hand
+  let person1 = {
+    firstName,
+    lastName,
+    age
+  };
+  
+  console.log(person);
+
+//for in loop
+for (let key in element){
+    console.log(person[key])
+}
