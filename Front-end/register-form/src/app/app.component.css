@@ -1,0 +1,17 @@
+.bg-container{
+    background-image: linear-gradient(to right, blue, pink, rgb(152, 230, 227));
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.text{
+    color: darkred;
+    font-size: 20px;
+}
+.text-heading{
+    color: rgb(3, 3, 53);
+}
